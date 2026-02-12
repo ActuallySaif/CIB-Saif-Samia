@@ -1,8 +1,9 @@
 import React from 'react';
+import './BNavBtn.css'
 
 const BNavBtn = () => {
     return ( 
-        <p>
+        <p className='BNavBtn'>
             Apply Online
         </p>
      );

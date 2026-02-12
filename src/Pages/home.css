@@ -1,16 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter';
-    transition: all 200ms ease;
-}
 
-
-@font-face {
-    font-family: 'Inter';
-    src: url(../Assets/Fonts/Inter-VariableFont_opsz\,wght.ttf);
-}
 
 .MainContent{
-    background: #962323;
+    background: #FAFAFA;
 }

@@ -1,0 +1,9 @@
+.BNavBtn{
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.BNavBtn:hover{
+    color: rgb(246, 134, 51);
+}
