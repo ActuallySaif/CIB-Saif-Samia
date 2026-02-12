@@ -1,0 +1,10 @@
+.NavBtn{
+    font-size: 15px;
+    color: #FFF;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.NavBtn:hover{
+    color: rgb(246, 134, 51);
+}
