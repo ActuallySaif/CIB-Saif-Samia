@@ -11,6 +11,6 @@
     src: url(../Assets/Fonts/Inter-VariableFont_opsz\,wght.ttf);
 }
 
-main{
-    background: #FAFAFA;
+.MainContent{
+    background: #962323;
 }

@@ -1,0 +1,7 @@
+.BottomNav{
+    display: flex;
+    padding: 30px 160px;
+    gap: 30px;
+    margin: 60px 0;
+    background: white;
+}
