@@ -1,0 +1,55 @@
+.maindiv{
+display: flex;
+height: 560px;
+padding: 75px 0px;
+justify-content: center;
+align-items: center;
+background: #1858A8;
+}
+
+.img{
+width: 1110px;
+height: 410px;
+border-radius: 6px;
+background-image: "./Images/learn more pic.jpg";
+background-size: cover;
+}
+
+.div2{
+padding: 48px 30px ;
+border-radius: 4px;
+background: #FFF;
+box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.10);
+border-top: 5px solid #F58420;
+}
+.div2 h3{
+color: #333;
+font-family: Inter;
+font-size: 21.1px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px;
+margin-bottom: 15px;
+}
+.div2 h4{
+color: #333;
+font-family: Inter;
+font-size: 14.4px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+margin-bottom:40px ;
+}
+.learnmorebtn{
+display: flex;
+width: 131.11px;
+padding: 14px 24px;
+justify-content: center;
+align-items: center;
+border-radius: 6px;
+background: #1858A8;
+cursor: pointer;
+font-size: 15.4px;
+font-weight: 500;
+color: #FFF;
+}
