@@ -1,0 +1,32 @@
+.NewsCard{
+    display: flex;
+    padding: 30px 0;
+}
+
+.NewsImg{
+    border-radius: 7px;
+    margin-right: 30px;
+    width: 350.05px;
+    height: 196.9px;
+    
+}
+
+.NewsTitle1{
+    font-size: 14px;
+    color: #333;
+    font-weight: 400;
+}
+
+.NewsTitle2{
+    font-size: 20px;
+    color: #1858A8;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.NewsSub{
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    margin-top: 20px;
+}

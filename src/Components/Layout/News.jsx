@@ -1,6 +1,7 @@
 import React from 'react';
 import './News.css'
 import SecSub from '../Common/SecSub';
+import NewsCard from '../Common/NewsCard';
 
 const News = () => {
     return ( 
@@ -10,7 +11,7 @@ const News = () => {
             </div>
 
             <div className='NewsCards'>
-
+                <NewsCard />
             </div>
         </section>
      );
