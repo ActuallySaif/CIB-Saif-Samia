@@ -5,9 +5,7 @@ const ReadMore = () => {
     return ( 
         <p className='ReadMore'>
             Read More
-            <div className='RMLine'>
-
-            </div>
+            <div className='RMLine'></div>
         </p>
      );
 }
