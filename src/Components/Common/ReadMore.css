@@ -1,0 +1,16 @@
+.ReadMore{
+    font-size: 14px;
+    width: fit-content;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.RMLine{
+    height: 1px;
+    width: 0;
+    background-color: black;
+}
+
+.ReadMore:hover .RMLine{
+    width: 100%;
+}

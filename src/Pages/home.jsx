@@ -8,6 +8,8 @@ import './home.css'
 import Awards from './../Components/Layout/awards';
 import Services from '../Components/Layout/services';
 import Apply from '../Components/Layout/Apply';
+import LearnCenter from '../Components/Layout/LearnCenter';
+import News from '../Components/Layout/News';
 
 const Home = () => {
     return ( 
@@ -16,6 +18,8 @@ const Home = () => {
             <Hero />
             <BottomNav />
             <Apply />
+            <LearnCenter />
+            <News />
             <Learnmore />
             <Finance/>
             <Awards />

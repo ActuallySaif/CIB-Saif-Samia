@@ -1,0 +1,35 @@
+.LearnCard{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.LearnCard:hover{
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.20);
+}
+
+.LearnCard img{
+    width: 100%;
+}
+
+.LCcontent{
+    padding: 20px;
+}
+
+.LCTitle{
+    font-size: 20px;
+    color: #1858A8;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.LCSub{
+    font-size: 14px;
+    color: #333;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 15px;
+}
