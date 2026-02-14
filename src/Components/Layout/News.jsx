@@ -2,6 +2,7 @@ import React from 'react';
 import './News.css'
 import SecSub from '../Common/SecSub';
 import NewsCard from '../Common/NewsCard';
+import Button from '../Common/Button';
 
 const News = () => {
     return ( 
@@ -12,7 +13,11 @@ const News = () => {
 
             <div className='NewsCards'>
                 <NewsCard />
+                <NewsCard />
+                <NewsCard />
             </div>
+
+            <Button />
         </section>
      );
 }

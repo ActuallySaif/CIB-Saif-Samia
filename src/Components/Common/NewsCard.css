@@ -1,6 +1,7 @@
 .NewsCard{
     display: flex;
     padding: 30px 0;
+    border-bottom: 2px solid #B8BABC;
 }
 
 .NewsImg{
@@ -22,6 +23,11 @@
     color: #1858A8;
     font-weight: 700;
     margin-top: 20px;
+    cursor: pointer;
+}
+
+.NewsTitle2:hover{
+    color: #F58420;
 }
 
 .NewsSub{
