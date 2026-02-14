@@ -10,8 +10,8 @@ const Awards = () => {
         <>
                 <div className='awards_maindiv'>
             <div className='awr_div1'>
-             <h5 className='awr_h5'>Sustainable finance</h5>
-             <h2 className='awr_h2'>Sustainability is an integral part of the way we work</h2>
+             <h5 className='awr_h5'>Awards</h5>
+             <h2 className='awr_h2'> CIB's integrity and quality are recognized<br></br>internationally </h2>
             </div>
             <div className='awr_div2'>
                 <div className='awr_div3'>

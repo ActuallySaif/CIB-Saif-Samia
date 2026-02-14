@@ -10,6 +10,7 @@ import Services from '../Components/Layout/services';
 import Apply from '../Components/Layout/Apply';
 import LearnCenter from '../Components/Layout/LearnCenter';
 import News from '../Components/Layout/News';
+import Footer from '../Components/Layout/Footer';
 
 const Home = () => {
     return ( 
@@ -24,6 +25,7 @@ const Home = () => {
             <Finance/>
             <Awards />
             <Services/>
+            <Footer/>
         </div>
      );
 }

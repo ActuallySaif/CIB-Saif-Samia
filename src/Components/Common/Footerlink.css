@@ -1,0 +1,15 @@
+
+.footer_ul li {
+  margin-bottom: 10px;
+}
+
+.footer_ul li a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+.footer_ul li a:hover {
+  color: #F58420;
+}

@@ -1,0 +1,135 @@
+footer{
+display: flex;
+flex-direction: column;
+align-items: center;
+background: #1D3766;
+position: relative;
+
+}
+
+.footer_div1{
+    padding: 50px 40px 1px 40px;
+    display: flex;
+flex-direction: column;
+align-items: center;
+position: relative;
+}
+
+
+.footer_div1-1{
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 25px;
+padding-bottom: 50px;
+  position: relative;
+  z-index: 1;
+}
+
+.footer_imgs{
+width: 134px;
+height: 40px;
+}
+
+.footer_div1-2{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-end;
+gap: 200px;
+}
+
+.footer_div1-2:first-child {
+  border-bottom: 1px solid #004A88;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+.footer_div1-3{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+gap: 15px;
+}
+
+
+.socialmedia_div{
+display: flex;
+justify-content: center;
+align-items: flex-start;
+gap: 15px;
+}
+.socialmedia_icons{
+width: 32px;
+height: 32px;
+transition: transform 0.3s ease, filter 0.3s ease;
+  cursor: pointer;
+
+}
+
+.socialmedia_icons:hover{
+  transform: translateY(-4px) scale(1.1);
+  filter: brightness(1.2);
+}
+
+.links_div{
+display: flex;
+align-items: flex-start;
+gap: 34px;
+}
+.links{
+color: #FFF;
+font-size: 12.6px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+  transition: color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+.links:hover{
+  color: #F58420;
+}
+.footer_div2{
+ display: flex;
+padding: 24px 0px 24px 0px;
+justify-content: flex-end;
+align-items: center;
+background: #004A88;
+width: 100%;
+}
+.footer_h6{
+    color: #B8BABC;
+font-size: 12.6px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+margin-right: 200px;
+}
+.footer_div1-4{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+gap: 34px;
+}
+.footer_ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer_bg_left{
+  position: absolute;
+  bottom: 0;
+  left: -40px;
+  z-index: 0;
+}
+
+.footer_bg_right{
+  position: absolute;
+  top: 0;
+  right: -40px;
+  z-index: 0;
+}
