@@ -1,6 +1,7 @@
 import React from 'react';
 import './learnmore.css';
 import learnMoreImage from '../../Assets/learnmorepic.jpg';
+import Button from '../Common/Button';
 
 const Learnmore = () => {
     return ( 
@@ -15,7 +16,7 @@ const Learnmore = () => {
         <h4 className='learnmoreh4'>
        Learn more about CIB's presence outside of Egypt
     </h4>
-    <button>Learn more</button>
+    <Button />
 </div>
             </div>
         </div>

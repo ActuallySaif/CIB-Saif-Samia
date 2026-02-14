@@ -3,6 +3,7 @@ import './awards.css';
 import Icon1 from '../../Assets/award icon.svg';
 import Icon2 from '../../Assets/money icon.svg';
 import Icon3 from '../../Assets/recycle icon.svg';
+import Button from '../Common/Button';
 
 const Awards = () => {
     return ( 
@@ -30,7 +31,7 @@ const Awards = () => {
                         <h6 className='awr_h6'>Euromoney - 2023</h6>
                     </div>
                 </div>
-                 <button>See all our awards</button>
+                <Button />
             </div>
         </div>
         </>

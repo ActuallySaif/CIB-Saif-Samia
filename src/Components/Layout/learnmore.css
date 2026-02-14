@@ -70,6 +70,7 @@ cursor: pointer;
 font-size: 15.4px;
 font-weight: 500;
 color: #FFF;
+width: fit-content;
 }
 button:hover{
     background: #134786;

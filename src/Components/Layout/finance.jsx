@@ -3,6 +3,7 @@ import './finance.css';
 import Img1 from '../../Assets/bloomberg.svg';
 import Img2 from '../../Assets/FTSE.svg';
 import Img3 from '../../Assets/the egyptian exchange.svg';
+import Button from '../Common/Button';
 
 const Finance = () => {
     return ( 
@@ -27,7 +28,7 @@ const Finance = () => {
                         <h4 className='fin_h4'>FTSE4Good Index</h4>
                     </div>
                 </div>
-                 <button>Learn more</button>
+                <Button />
             </div>
         </div>
         </>

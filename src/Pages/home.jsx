@@ -7,6 +7,7 @@ import BottomNav from '../Components/Layout/BottomNav';
 import './home.css'
 import Awards from './../Components/Layout/awards';
 import Services from '../Components/Layout/services';
+import Apply from '../Components/Layout/Apply';
 
 const Home = () => {
     return ( 
@@ -14,6 +15,7 @@ const Home = () => {
             <Navbar />
             <Hero />
             <BottomNav />
+            <Apply />
             <Learnmore />
             <Finance/>
             <Awards />
