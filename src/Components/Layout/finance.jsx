@@ -7,7 +7,7 @@ import Img3 from '../../Assets/the egyptian exchange.svg';
 const Finance = () => {
     return ( 
         <>
-        <div className='finance_maindiv'>
+<div className='finance_maindiv'>
             <div className='fin_div1'>
              <h6 className='fin_h6'>Sustainable finance</h6>
              <h2 className='fin_h2'>Sustainability is an integral part of the way we work</h2>
