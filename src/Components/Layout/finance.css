@@ -1,0 +1,97 @@
+.finance_maindiv{
+display: flex;
+padding: 75px 390px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 50px;
+background: #FAFAFA;
+}  
+
+.fin_div1{
+display: flex;
+padding: 4px 35px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+
+.fin_div2{
+ display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 60px;
+}
+
+.fin_div3{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 34px;
+}
+
+.fin_div4{
+display: flex;
+flex-direction: column;
+  justify-content: flex-start;
+align-items: center;
+gap: 24px;
+height: 150px;
+}
+
+button{
+display: flex;
+padding: 14px 24px;
+justify-content: center;
+align-items: center;
+border-radius: 6px;
+background: #1858A8;
+cursor: pointer;
+font-size: 15.4px;
+font-weight: 500;
+color: #FFF;
+}
+
+button:hover{
+    background: #134786;
+}y
+
+.fin_img{
+width: 154px;
+height: 51px;
+ object-fit: contain;
+}
+
+.fin_h6{
+color: #333;
+text-align: center;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 22px; 
+letter-spacing: 5px;
+text-transform: uppercase;
+}
+
+.fin_h2{
+color: #F58420;
+text-align: center;
+font-size: 38.1px;
+font-style: normal;
+font-weight: 600;
+line-height: 48px;
+}
+
+.fin_h4{
+color: #333;
+text-align: center;
+font-size: 18.4px;
+font-style: normal;
+font-weight: 600;
+line-height: 28.08px;
+ flex-shrink: 0;
+
+}

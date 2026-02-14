@@ -1,4 +1,5 @@
 import React from 'react';
+import Finance from '../Components/Layout/finance'; 
 import Learnmore from '../Components/Layout/learnmore';
 import Navbar from '../Components/Layout/Navbar';
 import Hero from '../Components/Layout/Hero';
@@ -12,6 +13,7 @@ const Home = () => {
             <Hero />
             <BottomNav />
             <Learnmore />
+            <Finance/>
         </div>
      );
 }
