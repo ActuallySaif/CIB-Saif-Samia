@@ -10,7 +10,7 @@ const Hero = () => {
                 <p className='HeroP'>
                     Delivering value to our clients, our community and our shareholders
                 </p>
-                <Button />
+                <Button MBtnText="Discover more"/>
             </div>
         </section>
      );

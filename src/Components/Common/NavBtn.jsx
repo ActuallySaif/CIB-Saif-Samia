@@ -1,10 +1,10 @@
 import React from 'react';
 import './NavBtn.css'
 
-const NavBtn = () => {
+const NavBtn = (props) => {
     return ( 
         <p className='NavBtn'>
-            About Us
+            {props.BtnText}
         </p>
         
      );

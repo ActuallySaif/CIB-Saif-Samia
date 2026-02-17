@@ -1,10 +1,10 @@
 import React from 'react';
 import './BNavBtn.css'
 
-const BNavBtn = () => {
+const BNavBtn = (props) => {
     return ( 
         <p className='BNavBtn'>
-            Apply Online
+            {props.BNavText}
         </p>
      );
 }

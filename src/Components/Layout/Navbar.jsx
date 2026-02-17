@@ -13,13 +13,13 @@ const Navbar = () => {
         <header>
             <div className='Navbar'>
                 <img className='LogoNav' src={Logo} alt="" />
-                <NavBtn />
-                <NavBtn />
-                <NavBtn />
-                <NavBtn />
-                <NavBtn />
-                <NavBtn />
-                <NavBtn />
+                <NavBtn BtnText="About Us"/>
+                <NavBtn BtnText="Investor Relations"/>
+                <NavBtn BtnText="Responsible Banking"/>
+                <NavBtn BtnText="Newsroom"/>
+                <NavBtn BtnText="Learning Center"/>
+                <NavBtn BtnText="Careers"/>
+                <NavBtn BtnText="Others"/>
             </div>
         </header>
      );
