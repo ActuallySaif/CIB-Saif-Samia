@@ -1,12 +1,12 @@
 import React from 'react';
 import './SecSub.css'
 
-const SecSub = () => {
+const SecSub = (props) => {
     return ( 
         <h2 className='SecSub'>
-             Apply online now for cards and loans with ease!
+             {props.SSubText}
         </h2>
      );
-}
+};
  
 export default SecSub;

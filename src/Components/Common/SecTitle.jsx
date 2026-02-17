@@ -1,10 +1,10 @@
 import React from 'react';
 import './SecTitle.css'
 
-const SecTitle = () => {
+const SecTitle = (props) => {
     return ( 
         <h3 className='SecTitle'>
-            Apply Online
+            {props.STitleText}
         </h3>
      );
 }
