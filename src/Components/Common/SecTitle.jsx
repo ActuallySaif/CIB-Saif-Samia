@@ -3,7 +3,7 @@ import './SecTitle.css'
 
 const SecTitle = (props) => {
     return ( 
-        <h3 className='SecTitle'>
+        <h3 className={props.TitleStyle}>
             {props.STitleText}
         </h3>
      );

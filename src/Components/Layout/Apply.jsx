@@ -11,7 +11,7 @@ const Apply = () => {
     return ( 
         <section className='ApplySec'>
             <div className='Secheader'>
-                <SecTitle STitleText="APPLY ONLINE"/>
+                <SecTitle TitleStyle="SecTitle1" STitleText="APPLY ONLINE"/>
                 <SecSub SSubText=" Apply online now for cards and loans with ease!"/>
             </div>
 

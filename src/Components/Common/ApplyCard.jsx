@@ -1,5 +1,4 @@
 import React from 'react';
-import AIcon1 from '../../Assets/AIcon1.svg'
 import './ApplyCard.css'
 
 const ApplyCard = (props) => {

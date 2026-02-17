@@ -13,7 +13,7 @@ const LearnCenter = () => {
         <section className='LearnCenter'>
             <div className='LCHeader'>
                 <SecSub SSubText="Learning Center"/>
-                <SecTitle STitleText="Learn more about banking and your finances"/>
+                <SecTitle TitleStyle="SecTitle2" STitleText="Learn more about banking and your finances"/>
             </div>
 
             <div className='LearnCards'>

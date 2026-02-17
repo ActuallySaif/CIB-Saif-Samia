@@ -2,8 +2,16 @@ import React from 'react';
 import "./Button.css"
 
 const Button = (props) => {
+
+    const AlertMsg = () => {
+
+        alert("Alert Message");
+
+    }
+
+
     return ( 
-        <button>
+        <button onClick={AlertMsg}>
             {props.MBtnText}
         </button>
      );
