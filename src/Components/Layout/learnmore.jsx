@@ -16,7 +16,7 @@ const Learnmore = () => {
         <h4 className='learnmoreh4'>
        Learn more about CIB's presence outside of Egypt
     </h4>
-    <Button />
+    <Button MBtnText="Learn More"/>
 </div>
             </div>
         </div>
