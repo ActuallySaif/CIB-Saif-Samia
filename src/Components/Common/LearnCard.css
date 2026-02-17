@@ -12,7 +12,8 @@
 }
 
 .LearnCard img{
-    width: 100%;
+    width: 452px;
+    border-radius: 7px;
 }
 
 .LCcontent{
